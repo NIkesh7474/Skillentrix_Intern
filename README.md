@@ -169,8 +169,11 @@ The project builds a classification model to predict whether a customer is likel
 Key Points
 
 Binary classification problem.
+
 Predicts customer churn.
+
 Supports business decisions.
+
 Improves customer retention.
 
 
@@ -181,8 +184,11 @@ The project uses the Telco Customer Churn dataset, which contains customer demog
 Key Points
 
 Customer information.
+
 Billing details.
+
 Service usage.
+
 Target variable: Churn.
 
 
@@ -193,8 +199,11 @@ The raw dataset is cleaned before model training by handling missing values, enc
 Key Points
 
 Missing value handling.
+
 Data encoding.
+
 Feature preparation.
+
 Clean dataset generation.
 
 
@@ -205,8 +214,11 @@ The project extracts meaningful features such as tenure and service-related info
 Key Points
 
 Tenure features.
+
 Usage patterns.
+
 Billing features.
+
 Customer service information.
 
 
@@ -217,8 +229,11 @@ Multiple machine learning algorithms are trained using the processed dataset to 
 Key Points
 
 Logistic Regression.
+
 Random Forest.
+
 XGBoost.
+
 Best model selection.
 
 
@@ -229,9 +244,13 @@ The trained models are evaluated using standard classification metrics to measur
 Key Points
 
 ROC-AUC.
+
 Precision.
+
 Recall.
+
 Confusion Matrix.
+
 
 
 7. Explainable AI (SHAP)
@@ -241,9 +260,13 @@ SHAP is used to explain why the model predicts that a customer will churn. It hi
 Key Points
 
 Feature importance.
+
 Explain predictions.
+
 Transparent AI.
+
 Business interpretation.
+
 
 
 8. Exploratory Data Analysis (EDA)
@@ -253,8 +276,11 @@ Before training the model, exploratory data analysis is performed to understand 
 Key Points
 
 Dataset exploration.
+
 Feature analysis.
+
 Data visualization.
+
 Pattern identification.
 
 
@@ -265,8 +291,11 @@ A web interface allows users to enter customer information and obtain churn pred
 Key Points
 
 User-friendly interface.
+
 Interactive prediction.
+
 Easy deployment.
+
 Business usability.
 
 
@@ -277,8 +306,11 @@ The project includes a REST API that exposes the prediction model so external ap
 Key Points
 
 REST API.
+
 Prediction endpoint.
+
 Backend integration.
+
 Scalable service.
 
 
@@ -289,8 +321,11 @@ Instead of predicting one customer at a time, the project supports predicting ch
 Key Points
 
 Bulk predictions.
+
 CSV input.
+
 Faster processing.
+
 Enterprise use.
 
 
@@ -301,8 +336,11 @@ Docker support enables the project to run consistently across different operatin
 Key Points
 
 Portable environment.
+
 Easy deployment.
+
 Dependency isolation.
+
 Containerization.
 
 
@@ -313,8 +351,11 @@ MLflow is included for tracking experiments, model versions, and training inform
 Key Points
 
 Experiment tracking.
+
 Model versioning.
+
 Performance logging.
+
 Reproducibility.
 
 
@@ -325,8 +366,11 @@ Monitoring utilities help track the health and performance of the deployed model
 Key Points
 
 Performance monitoring.
+
 Health tracking.
+
 Reliability.
+
 Maintenance support.
 
 
@@ -337,8 +381,11 @@ The project generates business insights based on churn predictions, helping orga
 Key Points
 
 Customer behavior.
+
 Business recommendations.
+
 Decision support.
+
 Churn analysis.
 
 
@@ -349,8 +396,11 @@ Beyond predicting churn, the project estimates the business impact of customer a
 Key Points
 
 Revenue impact.
+
 Customer retention.
+
 Business value.
+
 Strategic planning.
 
 
@@ -361,8 +411,11 @@ The project visualizes which features contribute the most to churn prediction, m
 Key Points
 
 Important features.
+
 Model interpretation.
+
 Visual analysis.
+
 Decision support.
 
 
@@ -373,8 +426,11 @@ The Receiver Operating Characteristic (ROC) Curve is generated to evaluate the m
 Key Points
 
 Classification quality.
+
 Threshold analysis.
+
 Model comparison.
+
 Performance evaluation.
 
 
@@ -385,8 +441,11 @@ A confusion matrix is generated to summarize correct and incorrect predictions a
 Key Points
 
 True positives.
+
 False positives.
+
 False negatives.
+
 True negatives.
 
 
@@ -397,8 +456,11 @@ After training, the best-performing model is stored for future predictions witho
 Key Points
 
 Reusable model.
+
 Faster predictions.
+
 Deployment ready.
+
 Model persistence.
 
 
@@ -409,8 +471,11 @@ The project supports retraining the model when new customer data becomes availab
 Key Points
 
 Model updates.
+
 Continuous learning.
+
 New data integration.
+
 Performance improvement.
 
 
@@ -421,8 +486,11 @@ Utilities are provided to generate sample customer datasets for testing and demo
 Key Points
 
 Test datasets.
+
 Demo data.
+
 Faster testing.
+
 Development support.
 
 
@@ -433,8 +501,11 @@ Unit tests verify that preprocessing, prediction, and other project components w
 Key Points
 
 Unit testing.
+
 Pipeline validation.
+
 Prediction testing.
+
 Error detection.
 
 
@@ -445,8 +516,11 @@ Continuous Integration automatically runs tests whenever changes are made to the
 Key Points
 
 Automated testing.
+
 Continuous integration.
+
 Code validation.
+
 Workflow automation.
 
 
@@ -457,6 +531,9 @@ The project contains multiple documentation files describing fixes, optimization
 Key Points
 
 Project guide.
+
 Optimization notes.
+
 Scalability guide.
+
 Technical documentation.
