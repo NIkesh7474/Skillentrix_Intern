@@ -33,6 +33,8 @@ Customer Churn Prediction Dashboard
 <img width="1901" height="851" alt="Screenshot 2026-07-01 175320" src="https://github.com/user-attachments/assets/703b4105-88eb-45d0-94aa-3c688e91a00f" />
 
 
+Project Structure
+---
 Customer Churn Prediction/
 
 │
