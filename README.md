@@ -1,9 +1,12 @@
 Customer Churn Analysis in Power BI
 This project uses Power BI Desktop and Excel to help businesses prevent customer loss and improve customer service.
+
 Key Features:
+
 📌 Predictive Churn Modeling: Identify at-risk customers before they churn, enabling proactive interventions and retention strategies.
 
 📌 Customer Segmentation: Group customers based on shared characteristics and churn risk, allowing for targeted marketing and engagement efforts. Customer Churn Dashboard
+
 <img width="1285" height="729" alt="image" src="https://github.com/user-attachments/assets/267a92ed-4b7a-4225-a41a-ad79a4e3b844" />
 
 Built with:
