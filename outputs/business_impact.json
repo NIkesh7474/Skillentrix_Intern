@@ -1,0 +1,18 @@
+{
+  "assumptions": {
+    "cost_loss_per_customer": 500,
+    "cost_action_per_customer": 50,
+    "churn_rate": 0.18,
+    "decision_threshold": 0.5
+  },
+  "confusion_matrix": {
+    "true_negatives": 65,
+    "false_positives": 17,
+    "false_negatives": 5,
+    "true_positives": 13
+  },
+  "expected_retained_customers": 13,
+  "expected_action_cost": 1500.0,
+  "expected_revenue_saved": 6500.0,
+  "expected_net_savings": 5000.0
+}

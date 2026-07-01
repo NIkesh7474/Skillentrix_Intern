@@ -1,0 +1,18 @@
+data:
+  path: data/telco_customer_churn.csv
+output:
+  dir: outputs
+training:
+  test_size: 0.2
+  random_state: 42
+  cv_splits: 5
+  rf_n_iter: 6
+  xgb_n_iter: 6
+monitoring:
+  psi_bins: 10
+  drift_threshold: 0.1
+mlflow:
+  experiment_name: churn_experiments
+  tracking_uri: mlruns
+  model_registry: churn_model_registry
+  run_name: churn_train
