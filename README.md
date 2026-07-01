@@ -34,66 +34,127 @@ Customer Churn Prediction Dashboard
 
 
 Customer Churn Prediction/
+
 │
+
 ├── .github/
+
 │   └── workflows/
+
 │       └── test.yml                  # GitHub Actions CI
+
 │
+
 ├── api/
+
 │   └── main.py                       # FastAPI backend
+
 │
+
 ├── data/
+
 │   └── telco_customer_churn.csv      # Dataset
+
 │
+
 ├── models/
+
 │   └── best_model.joblib             # Saved trained model
+
 │
+
 ├── notebooks/
+
 │   └── eda.ipynb                     # Exploratory Data Analysis
+
 │
+
 ├── outputs/
+
 │   ├── business_impact.json
+
 │   ├── business_insights.md
+
 │   ├── confusion_matrix.png
+
 │   ├── feature_importance.png
+
 │   ├── metrics.json
+
 │   ├── roc_curve.png
+
 │   ├── shap_summary.png
+
 │   └── test_preprocess/
+
 │       └── prepared.csv
+
 │
+
 ├── tests/
+
 │   ├── test_pipeline.py
+
 │   └── test_predict.py
+
 │
+
 ├── ACCURACY_FIX.md
+
 ├── batch_predictor.py
+
 ├── churn_prediction.py
+
 ├── config.py
+
 ├── create_sample_data.py
+
 ├── deploy.py
+
 ├── docker-compose.yml
+
 ├── Dockerfile
+
 ├── evaluate.py
+
 ├── FIX_SUMMARY.md
+
 ├── generate_sample_data.py
+
 ├── mlflow_utils.py
+
 ├── monitoring.py
+
 ├── OPTIMIZATION_SUMMARY.md
+
 ├── params.yaml
+
 ├── predict.py
+
 ├── preprocessing.py
+
 ├── quick_train.py
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── retrain.py
+
 ├── sample_customers_1000.csv
+
 ├── SCALABILITY_GUIDE.md
+
 ├── streamlit_app.py
+
 ├── temp_predictions.csv
+
 ├── test_accuracy.py
+
 ├── test_fix.py
+
 ├── train.py
+
 └── uplift.py
 
 
