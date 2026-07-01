@@ -1,13 +1,17 @@
-Customer Churn Analysis in Power BI
-This project uses Power BI Desktop and Excel to help businesses prevent customer loss and improve customer service.
+Customer Churn Prediction
+----
 
-Key Features:
+Customer attrition, also known as customer churn, customer turnover, or customer defection, is the loss of clients or customers.
 
-📌 Predictive Churn Modeling: Identify at-risk customers before they churn, enabling proactive interventions and retention strategies.
+Telephone service companies, Internet service providers, pay TV companies, insurance firms, and alarm monitoring services, often use customer attrition analysis and customer attrition rates as one of their key business metrics because the cost of retaining an existing customer is far less than acquiring a new one. Companies from these sectors often have customer service branches which attempt to win back defecting clients, because recovered long-term customers can be worth much more to a company than newly recruited clients.
 
-📌 Customer Segmentation: Group customers based on shared characteristics and churn risk, allowing for targeted marketing and engagement efforts. Customer Churn Dashboard
+Predictive analytics use churn prediction models that predict customer churn by assessing their propensity of risk to churn. Since these models generate a small prioritized list of potential defectors, they are effective at focusing customer retention marketing programs on the subset of the customer base who are most vulnerable to churn.
 
-<img width="1285" height="729" alt="image" src="https://github.com/user-attachments/assets/267a92ed-4b7a-4225-a41a-ad79a4e3b844" />
+In this project I aim to perform customer survival analysis and build a model which can predict customer churn. I also aim to build an app which can be used to understand why a specific customer would stop the service and to know his/her expected lifetime value.
+
+
+<img width="1913" height="852" alt="Screenshot 2026-07-01 174415" src="https://github.com/user-attachments/assets/bedc841b-d7f9-4751-bbab-5eaac89d4451" />
+
 
 Built with:
 Power BI Desktop
